@@ -1,10 +1,4 @@
-//
-//  CustomCalenderTests.m
-//  CustomCalenderTests
-//
-//  Created by Webonise on 17/06/14.
-//  Copyright (c) 2014 Webonise Lab. All rights reserved.
-//
+
 
 #import <XCTest/XCTest.h>
 

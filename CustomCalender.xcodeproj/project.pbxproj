@@ -21,6 +21,10 @@
 		2A5F33FD1950167E0042FFA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5F33DF1950167E0042FFA5 /* UIKit.framework */; };
 		2A5F34051950167E0042FFA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F34031950167E0042FFA5 /* InfoPlist.strings */; };
 		2A5F34071950167E0042FFA5 /* CustomCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F34061950167E0042FFA5 /* CustomCalenderTests.m */; };
+		2A5F341619501C7E0042FFA5 /* MyDayCalendarDateBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F341119501C7E0042FFA5 /* MyDayCalendarDateBack1.png */; };
+		2A5F341919501C7E0042FFA5 /* myTrip_nextArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F341419501C7E0042FFA5 /* myTrip_nextArrow.png */; };
+		2A5F341A19501C7E0042FFA5 /* myTrip_preArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F341519501C7E0042FFA5 /* myTrip_preArrow.png */; };
+		2A5F341E195049EA0042FFA5 /* MyDayCalendarDateBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F341D195049EA0042FFA5 /* MyDayCalendarDateBack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		2A5F34021950167E0042FFA5 /* CustomCalenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCalenderTests-Info.plist"; sourceTree = "<group>"; };
 		2A5F34041950167E0042FFA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A5F34061950167E0042FFA5 /* CustomCalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCalenderTests.m; sourceTree = "<group>"; };
+		2A5F341119501C7E0042FFA5 /* MyDayCalendarDateBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyDayCalendarDateBack1.png; sourceTree = "<group>"; };
+		2A5F341419501C7E0042FFA5 /* myTrip_nextArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myTrip_nextArrow.png; sourceTree = "<group>"; };
+		2A5F341519501C7E0042FFA5 /* myTrip_preArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myTrip_preArrow.png; sourceTree = "<group>"; };
+		2A5F341D195049EA0042FFA5 /* MyDayCalendarDateBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyDayCalendarDateBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 		2A5F33E11950167E0042FFA5 /* CustomCalender */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F341019501C7E0042FFA5 /* Images */,
 				2A5F33EA1950167E0042FFA5 /* ViewAppDelegate.h */,
 				2A5F33EB1950167E0042FFA5 /* ViewAppDelegate.m */,
 				2A5F33ED1950167E0042FFA5 /* Main.storyboard */,
@@ -150,6 +159,17 @@
 				2A5F34031950167E0042FFA5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A5F341019501C7E0042FFA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A5F341119501C7E0042FFA5 /* MyDayCalendarDateBack1.png */,
+				2A5F341419501C7E0042FFA5 /* myTrip_nextArrow.png */,
+				2A5F341519501C7E0042FFA5 /* myTrip_preArrow.png */,
+				2A5F341D195049EA0042FFA5 /* MyDayCalendarDateBack.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5F33F41950167E0042FFA5 /* Images.xcassets in Resources */,
+				2A5F341619501C7E0042FFA5 /* MyDayCalendarDateBack1.png in Resources */,
+				2A5F341A19501C7E0042FFA5 /* myTrip_preArrow.png in Resources */,
 				2A5F33E61950167E0042FFA5 /* InfoPlist.strings in Resources */,
+				2A5F341919501C7E0042FFA5 /* myTrip_nextArrow.png in Resources */,
 				2A5F33EF1950167E0042FFA5 /* Main.storyboard in Resources */,
+				2A5F341E195049EA0042FFA5 /* MyDayCalendarDateBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +485,7 @@
 				2A5F340C1950167E0042FFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5F340D1950167E0042FFA5 /* Build configuration list for PBXNativeTarget "CustomCalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +494,7 @@
 				2A5F340F1950167E0042FFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
